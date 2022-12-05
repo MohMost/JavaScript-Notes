@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <title>Quiz Pour Les Américains</title>
+</head>
+<body>
+
+  <!-- top section -->
+  <div class="intro py-3 bg-white text-center">
+    <div class="container">
+      <h2 class="text-danger display-3 my-4">Quiz for Americains</h2>
+    </div>
+  </div>
+  
+  <div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+      <p>You are <span class="text-danger display-4 p-3"></span> none American !</p>
+    </div>
+  </div>
+
+  <!-- quiz section -->
+  <div class="quiz py-4 bg-danger">
+    <div class="container">
+      <h2 class="my-5 text-white">On with the questions...</h2>
+
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. How many continents are there ?</p>
+          <div class="form-check my-2 text-white-50">
+            <input id="q1a1" type="radio" name="q1" value="A" checked>
+            <label for="q1a1" class="form-check-label">10</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input id="q1a2" type="radio" name="q1" value="B">
+            <label for="q1a2" class="form-check-label">7</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. Is Africa a contry or a continent ?</p>
+          <div class="form-check my-2 text-white-50">
+            <input id="q2a1" type="radio" name="q2" value="A" checked>
+            <label for="q2a1" class="form-check-label">A contry</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input id="q2a2" type="radio" name="q2" value="B">
+            <label for="q2a2" class="form-check-label">A continent</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. In Witch continent the USA is located ? </p>
+          <div class="form-check my-2 text-white-50">
+            <input id="q3a1" type="radio" name="q3" value="A" checked>
+            <label for="q3a1" class="form-check-label">Just America bruh</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input id="q3a2" type="radio" name="q3" value="B">
+            <label for="q3a2" class="form-check-label">North America</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">4. In witch continent Fance is located</p>
+          <div class="form-check my-2 text-white-50">
+            <input id="q4a1" type="radio" name="q4" value="A" checked>
+            <label for="q4a1" class="form-check-label">East europe</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input id="q4a2" type="radio" name="q4" value="B">
+            <label for="q4a2" class="form-check-label">Europe</label>
+          </div>
+        </div>
+        <div class="text-center">
+          <input type="submit" class="btn btn-light text-danger fw-bold"> 
+        </div>
+      </form>
+
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
