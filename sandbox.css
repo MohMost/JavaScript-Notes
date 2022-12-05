@@ -1,0 +1,42 @@
+*{
+  list-style: none;
+}
+li{
+  width: 4.5em;
+  height: 4.5em;
+  font-size: 1.5em;
+  border: 5px;
+}
+
+.contentButt{
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 1.5em;
+  background-color: rgb(96, 165, 72);
+}
+.contentButt:hover{
+  background-color: rgb(87, 233, 39);
+}
+
+body{
+  background: #eee;
+}
+form{
+  margin: 40px auto;
+  padding: 10px;
+  max-width: 200px;
+  background: white;
+}
+input{
+  display: block;
+  margin: 10px auto;
+  padding: 4px;
+}
+
+.valid{
+  border: 2px solid green;
+}
+
+.unvalid{
+  border: 2px solid red;
+}
